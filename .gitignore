@@ -1,0 +1,5 @@
+*.env
+config_local.py
+vua20_tr_full.parquet
+checkpoints/
+__pycache__/

@@ -1,0 +1,8 @@
+model,data,task,metaphor_f1,macro_f1
+BERTurk,EN (VUA20),token-level,0.5022,0.7069
+BERTurk,EN (VUA20),token-level + weighted loss,0.5591,0.723
+BERTurk,EN (VUA20),sentence-level,0.7115,0.712
+BERTurk,EN→TR zero-shot,sentence-level,0.0,0.4264
+BERTurk,EN+TR few-shot,sentence-level,0.4,0.6
+mBERT,TR (VUA20-TR),sentence-level,0.7318,0.739
+BERTurk,TR (VUA20-TR),sentence-level,0.7697,0.7928
